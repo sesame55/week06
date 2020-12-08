@@ -6,11 +6,18 @@
     background-repeat: no-repeat;
 }
 
-
-.bg-index{
-    @include bgu('../images/index1.jpg',calc(100vh - 56px));
-    // @include md{
-
-    // }
+// banner
+.bg-index-banner {
+    @include bgu('../images/index1.jpg', calc(100vh - 56px));
 }
 
+// index-product
+.bg-index-product {
+    // width: 100%;
+    // height: 555px;
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    // background-size: contain;
+    background-repeat: no-repeat;
+}

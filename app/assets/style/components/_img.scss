@@ -1,12 +1,21 @@
+// .img-top{
+//     width: 100%;
+//     height:calc(100vh - 96px - 120px);
+//     object-fit: cover;
+// }
 
-.img-top{
-    width: 100%;
-    height:calc(100vh - 96px - 120px);
-    object-fit: cover;
-}
+// .img-section{
+//     width: 100%;
+//     height:calc(100vh - 96px);
+//     object-fit: cover;
+// }
 
-.img-section{
+.img-index-product {
     width: 100%;
-    height:calc(100vh - 96px);
+    max-height: 555px;
     object-fit: cover;
+    // object-position: center center;
+    @include md{
+        max-height: 350px;
+    }
 }

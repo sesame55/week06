@@ -10651,24 +10651,27 @@ a:hover {
       border-right: 7px;
       font-size: 8px; }
 
-.bg-index {
+.bg-index-banner {
   background: url("../images/index1.jpg");
   height: calc(100vh - 56px);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
-.img-top {
-  width: 100%;
-  height: calc(100vh - 96px - 120px);
-  -o-object-fit: cover;
-     object-fit: cover; }
+.bg-index-product {
+  padding-top: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-.img-section {
+.img-index-product {
   width: 100%;
-  height: calc(100vh - 96px);
+  max-height: 555px;
   -o-object-fit: cover;
      object-fit: cover; }
+  @media (max-width: 767px) {
+    .img-index-product {
+      max-height: 350px; } }
 
 * {
   outline: 1px solid green; }
