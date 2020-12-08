@@ -17,6 +17,7 @@
     }
     .shopping-cart {
         position: relative;
+        font-size: 0px;
         &-num{
             position: absolute;
             top: -7px;
@@ -28,6 +29,5 @@
             border-right: 7px;
             font-size: $fz * 0.8;
         }
-
     }
 }
