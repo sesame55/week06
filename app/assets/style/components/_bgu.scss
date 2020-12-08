@@ -1,0 +1,11 @@
+@mixin box($url, $height) {
+    background: url($url);
+    height: $height;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+

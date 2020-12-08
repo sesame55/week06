@@ -1,0 +1,13 @@
+@import 'bootstrap/functions';
+@import 'helpers/variables';
+@import 'bootstrap/mixins';
+@import 'bootstrap/bootstrap';
+
+@import 'components/bgu'; //背景圖
+@import 'components/img'; //img
+
+
+
+* {
+    outline: 1px solid green;
+}
