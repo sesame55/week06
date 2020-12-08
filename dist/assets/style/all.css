@@ -10659,10 +10659,20 @@ a:hover {
   background-repeat: no-repeat; }
 
 .bg-index-product {
-  padding-top: 100%;
+  width: 100%;
+  padding-top: 100%; }
+  @media (max-width: 767px) {
+    .bg-index-product {
+      padding-top: 70%; } }
+
+.bg-cover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+@media (max-width: 767px) {
+  .bg-md-cover-top {
+    background-position: center 30%; } }
 
 .img-index-product {
   width: 100%;
