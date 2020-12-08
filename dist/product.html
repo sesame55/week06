@@ -5,17 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>首頁</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="stylesheet" href="./assets/style/all.css" />
     </head>
 
     <body>
         <!-- 首頁選單 -->
-        <nav class="navbar navbar-expand-sm navbar-light">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">D'PERFUME</a>
+        
+<nav class="navbar navbar-expand-md navbar-light p-0 py-md-2 px-md-3">
+    <div class="container-fluid container-md ">
+        <a class="navbar-brand logo d-block my-2 ml-3 m-md-0" href="index.html">D'PERFUME</a>
         <button
-            class="navbar-toggler "
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -27,18 +29,30 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#">Product</a>
+            <ul class="navbar-nav  ml-md-auto">
+                <li class="nav-item mr-md-5">
+                    <a class="nav-link text-info d-md-flex text-center" href="product.html">
+                        <span class="material-icons d-none d-md-block"> store </span>
+                        Product
+                    </a>
+                </li>
+                <li class="nav-item mr-md-5">
+                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                        <span class="material-icons d-none d-md-block"> person </span>
+                        log in
+                    </a>
+                </li>
+                <li class="nav-item mr-md-5">
+                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                        <span class="material-icons d-none d-md-block"> favorite </span>
+                        Wishlist
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-info" href="#">log in</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#">Wishlist</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#">Cart(3)</a>
+                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                        <span class="material-icons d-none d-md-block"> shopping_cart </span>
+                        Cart(3)
+                    </a>
                 </li>
             </ul>
         </div>
