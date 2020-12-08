@@ -1,4 +1,4 @@
-@mixin box($url, $height) {
+@mixin bgu($url, $height) {
     background: url($url);
     height: $height;
     background-position: center;
@@ -7,5 +7,10 @@
 }
 
 
+.bg-index{
+    @include bgu('../images/index1.jpg',calc(100vh - 56px));
+    // @include md{
 
+    // }
+}
 

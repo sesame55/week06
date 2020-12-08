@@ -3,14 +3,13 @@
 @import 'bootstrap/mixins';
 @import 'bootstrap/bootstrap';
 
+@import 'base/grid'; //格線
+@import 'base/base'; //不知道要分在哪裡
 
-@import 'base/base';
-
-@import 'components/bgu'; //背景圖
+@import 'components/nav'; //nav
+@import 'components/bgu'; //bgu
 @import 'components/img'; //img
 
-
-
 * {
-    outline: 1px solid green;
+    // outline: 1px solid green;
 }

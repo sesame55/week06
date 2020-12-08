@@ -1,0 +1,33 @@
+// 最上方選單
+.topNav {
+    font-size: $fz * 2;
+    line-height: 1.5;
+    .navbar-nav .nav-link {
+        color: $info;
+        @include md {
+            display: block;
+            background-color: #707070;
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+            &:hover {
+                background-color: $info;
+                font-weight: bold;
+            }
+        }
+    }
+    .shopping-cart {
+        position: relative;
+        &-num{
+            position: absolute;
+            top: -7px;
+            right: -7px;
+            display: block;
+            width: 16px;
+            // height: 13px;
+            text-align: center;
+            border-right: 7px;
+            font-size: $fz * 0.8;
+        }
+
+    }
+}

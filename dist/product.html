@@ -12,12 +12,20 @@
 
     <body>
         <!-- 首頁選單 -->
-        
-<nav class="navbar navbar-expand-md navbar-light p-0 py-md-2 px-md-3">
-    <div class="container-fluid container-md ">
-        <a class="navbar-brand logo d-block my-2 ml-3 m-md-0" href="index.html">D'PERFUME</a>
+        <nav class="navbar navbar-expand-md navbar-light p-0 py-md-2 px-md-3 topNav">
+    <div class="container-fluid container-md">
+        <!-- logo -->
+        <h1 class="m-0">
+            <a class="navbar-brand logo d-block my-2 ml-3 m-md-0" href="index.html">D'PERFUME</a>
+        </h1>
+        <!-- 手機板cart -->
+        <a href="#" class="ml-auto mr-3 shopping-cart d-block d-md-none">
+            <span class="material-icons text-info"> shopping_cart </span>
+            <span class="badge badge-pill badge-secondary shopping-cart-num">3</span>
+        </a>
+        <!-- 下拉選單 -->
         <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -29,30 +37,36 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ml-md-auto">
-                <li class="nav-item mr-md-5">
-                    <a class="nav-link text-info d-md-flex text-center" href="product.html">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item mr-md-5 order-1">
+                    <a class="nav-link d-md-flex text-center py-3 p-md-2 align-items-center" href="product.html">
                         <span class="material-icons d-none d-md-block"> store </span>
                         Product
                     </a>
                 </li>
-                <li class="nav-item mr-md-5">
-                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                <li class="nav-item mr-md-5 order-5 order-md-2">
+                    <a class="nav-link d-md-flex text-center py-3 p-md-2 align-items-center" href="#">
                         <span class="material-icons d-none d-md-block"> person </span>
                         log in
                     </a>
                 </li>
-                <li class="nav-item mr-md-5">
-                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                <li class="nav-item mr-md-5 order-2 order-md-3">
+                    <a class="nav-link d-md-flex text-center py-3 p-md-2 align-items-center" href="#">
                         <span class="material-icons d-none d-md-block"> favorite </span>
                         Wishlist
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info d-md-flex text-center" href="#">
+                <li class="nav-item d-none d-md-block order-md-4">
+                    <a class="nav-link d-md-flex text-center py-3 p-md-2 align-items-center" href="#">
                         <span class="material-icons d-none d-md-block"> shopping_cart </span>
                         Cart(3)
                     </a>
+                </li>
+                <li class="nav-item d-block d-md-none order-3">
+                    <a class="nav-link text-center py-3 p-md-2 align-items-center" href="#"> Blog </a>
+                </li>
+                <li class="nav-item d-block d-md-none order-4">
+                    <a class="nav-link text-center py-3 p-md-2" href="#"> Contact </a>
                 </li>
             </ul>
         </div>
