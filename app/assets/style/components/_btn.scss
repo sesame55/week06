@@ -12,6 +12,10 @@
     padding: 18px 0;
     &:hover {
         color: $black;
-        background-color:#0000000D;
+        background-color: #0000000d;
     }
+}
+
+.btn-footer-email {
+    border-width: 2px;
 }

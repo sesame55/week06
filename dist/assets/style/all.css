@@ -11209,7 +11209,10 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   padding: 18px 0; }
   .btn-index-product:hover {
     color: #000;
-    background-color: #0000000D; }
+    background-color: #0000000d; }
+
+.btn-footer-email {
+  border-width: 2px; }
 
 * {
   outline: 1px solid green; }
