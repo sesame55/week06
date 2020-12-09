@@ -11424,6 +11424,11 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .bg-pos-left {
   background-position: left; }
 
+.bg-pos-top {
+  background-position: top; }
+  .bg-pos-top-30 {
+    background-position: center 30%; }
+
 .bg-pos-bottom {
   background-position: bottom; }
 
