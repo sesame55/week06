@@ -16,7 +16,15 @@
     width: 100%;
     padding-top: 100%;
     @include md {
-        padding-top:75%;
+        padding-top: 75%;
+    }
+}
+
+.bg-index-product-md {
+    width: 100%;
+    padding-top: 150%;
+    @include md {
+        padding-top: 100%;
     }
 }
 
@@ -24,7 +32,7 @@
     width: 100%;
     padding-top: 195%;
     // @include md {
-    //     padding-top:195%;
+    //     padding-top: 100%;
     // }
 }
 
@@ -34,15 +42,17 @@
     background-repeat: no-repeat;
 }
 
-.bg-cover-left {
-    background-position:left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+.bg-pos-left {
+    background-position: left;
 }
 
-.bg-md-cover-top {
+.bg-md-pos-top {
     @include md {
         background-position: center 30%;
+    }
+}
+.bg-md-pos-bottom {
+    @include md {
+        background-position: center bottom;
     }
 }

@@ -11132,6 +11132,13 @@ h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     .bg-index-product {
       padding-top: 75%; } }
 
+.bg-index-product-md {
+  width: 100%;
+  padding-top: 150%; }
+  @media (max-width: 767px) {
+    .bg-index-product-md {
+      padding-top: 100%; } }
+
 .bg-index-product-lg {
   width: 100%;
   padding-top: 195%; }
@@ -11141,23 +11148,40 @@ h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.bg-cover-left {
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat; }
+.bg-pos-left {
+  background-position: left; }
 
 @media (max-width: 767px) {
-  .bg-md-cover-top {
+  .bg-md-pos-top {
     background-position: center 30%; } }
+
+@media (max-width: 767px) {
+  .bg-md-pos-bottom {
+    background-position: center bottom; } }
 
 .img-index-product {
   width: 100%;
-  max-height: 555px;
+  height: 540px;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center; }
   @media (max-width: 767px) {
     .img-index-product {
-      max-height: 350px; } }
+      height: 450px; } }
+  @media (max-width: 576px) {
+    .img-index-product {
+      height: 350px; } }
+
+@media (max-width: 767px) {
+  .img-md-pos-top {
+    -o-object-position: center top;
+       object-position: center top; } }
+
+@media (max-width: 767px) {
+  .img-md-pos-bottom {
+    -o-object-position: center 80%;
+       object-position: center 80%; } }
 
 .btn-banner {
   border-width: 2px;
