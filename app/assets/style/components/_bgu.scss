@@ -12,6 +12,15 @@
 }
 
 // index-product
+.bg-index-product-sm {
+    width: 100%;
+    padding-top: 70%;
+    @include md {
+        padding-top: 150%;
+    }
+}
+
+
 .bg-index-product {
     width: 100%;
     padding-top: 100%;

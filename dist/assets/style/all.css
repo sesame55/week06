@@ -11062,7 +11062,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 
-h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.5; }
 
 .banner-title {
@@ -11124,6 +11124,13 @@ h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.bg-index-product-sm {
+  width: 100%;
+  padding-top: 70%; }
+  @media (max-width: 767px) {
+    .bg-index-product-sm {
+      padding-top: 150%; } }
 
 .bg-index-product {
   width: 100%;
