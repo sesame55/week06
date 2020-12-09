@@ -23,7 +23,7 @@
 // 最上方選單
 .topNav {
     font-size: $fz * 2;
-    line-height: 1.5;
+    line-height: 1.2;
     .navbar-nav .nav-link {
         color: $info;
         @include md {
@@ -34,6 +34,7 @@
             &:hover {
                 background-color: $info;
                 font-weight: bold;
+                transition: all 0.5s;
             }
         }
     }
@@ -61,5 +62,18 @@
     .footer-text {
         font-size: $fz * 1.4;
         line-height: 1.5;
+    }
+}
+
+//product-nav
+.productNav {
+    font-size: $fz * 2;
+    line-height: 1.2;
+    .navbar-nav .nav-link {
+        padding: 14px 0;
+        &:hover{
+            color: $info;
+            transition: all 0.3s;
+        }
     }
 }

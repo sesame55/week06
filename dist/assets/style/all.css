@@ -11102,7 +11102,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .topNav {
   font-size: 20px;
-  line-height: 1.5; }
+  line-height: 1.2; }
   .topNav .navbar-nav .nav-link {
     color: #8D8D8D; }
     @media (max-width: 767px) {
@@ -11113,7 +11113,10 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
         border-bottom: 1px solid #ffffff; }
         .topNav .navbar-nav .nav-link:hover {
           background-color: #8D8D8D;
-          font-weight: bold; } }
+          font-weight: bold;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; } }
   .topNav .shopping-cart {
     position: relative;
     font-size: 0px; }
@@ -11133,6 +11136,17 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   .footerNav .footer-text {
     font-size: 14px;
     line-height: 1.5; }
+
+.productNav {
+  font-size: 20px;
+  line-height: 1.2; }
+  .productNav .navbar-nav .nav-link {
+    padding: 14px 0; }
+    .productNav .navbar-nav .nav-link:hover {
+      color: #8D8D8D;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
 
 .bg-index-banner {
   background: url("../images/index1.jpg");
