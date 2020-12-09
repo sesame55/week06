@@ -11125,6 +11125,13 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.bg-footer-banner {
+  background: url("../images/index10.jpg");
+  height: calc(60vh);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .bg-index-product-sm {
   width: 100%;
   padding-top: 70%; }

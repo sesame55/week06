@@ -11,6 +11,11 @@
     @include bgu('../images/index1.jpg', calc(100vh - 56px));
 }
 
+.bg-footer-banner {
+    @include bgu('../images/index10.jpg', calc(60vh));
+}
+
+
 // index-product
 .bg-index-product-sm {
     width: 100%;
