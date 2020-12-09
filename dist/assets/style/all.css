@@ -11481,4 +11481,15 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .btn-footer-email {
   border-width: 2px; }
 
+.pagination .page-item.active .page-link {
+  background-color: transparent;
+  color: #AC8A46;
+  text-decoration: underline; }
+
+.pagination .page-link {
+  color: #000; }
+  .pagination .page-link:hover {
+    background-color: transparent;
+    color: #AC8A46; }
+
 /*# sourceMappingURL=all.css.map */
