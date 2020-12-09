@@ -1,5 +1,30 @@
-$fz:10px;
+$fz: 10px;
 
-a:hover{
+a:hover {
     text-decoration: none;
+}
+
+// BS的_type.scss似乎因為順序導致btn覆蓋格式？
+// 這裡重複一遍用來覆蓋btn設定
+h1,.h1{ 
+    @include font-size($h1-font-size);
+}
+h2,.h2 { 
+    @include font-size($h2-font-size); 
+}
+h3,.h3 {
+    @include font-size($h3-font-size);
+}
+h4,.h4{ 
+    @include font-size($h4-font-size);
+}
+h5,.h5 {
+    @include font-size($h5-font-size);
+}
+h6,.h6 {
+    @include font-size($h6-font-size);
+}
+
+h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+    line-height: 1.5;
 }

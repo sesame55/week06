@@ -1,0 +1,17 @@
+.btn-banner {
+    border-width: 2px;
+    padding: 13px 0;
+    &:hover {
+        color: $info;
+        background-color: #ffffff4d;
+    }
+}
+
+.btn-index-product {
+    border-width: 2px;
+    padding: 18px 0;
+    &:hover {
+        color: $black;
+        background-color:#0000000D;
+    }
+}

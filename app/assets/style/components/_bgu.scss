@@ -16,14 +16,31 @@
     width: 100%;
     padding-top: 100%;
     @include md {
-        padding-top: 70%;
+        padding-top:75%;
     }
 }
+
+.bg-index-product-lg {
+    width: 100%;
+    padding-top: 195%;
+    // @include md {
+    //     padding-top:195%;
+    // }
+}
+
 .bg-cover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.bg-cover-left {
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 .bg-md-cover-top {
     @include md {
         background-position: center 30%;
