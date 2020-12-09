@@ -11492,4 +11492,16 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-color: transparent;
     color: #AC8A46; }
 
+@media (min-width: 768px) {
+  .description {
+    position: absolute;
+    right: 0; } }
+
+.pos-right {
+  position: absolute;
+  right: 0; }
+  @media (max-width: 767px) {
+    .pos-right {
+      position: relative; } }
+
 /*# sourceMappingURL=all.css.map */

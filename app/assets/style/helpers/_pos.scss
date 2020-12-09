@@ -1,0 +1,16 @@
+// 助教提供的min寫法
+@media (min-width: 768px) {
+    .description {
+        position: absolute;
+        right: 0;
+    }
+}
+
+// max寫法
+.pos-right {
+    position: absolute;
+    right: 0;
+    @include md {
+        position: relative;
+    }
+}
