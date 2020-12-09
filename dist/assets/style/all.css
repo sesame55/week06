@@ -11091,6 +11091,15 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   white-space: nowrap;
   overflow: hidden; }
 
+.logo-footer {
+  display: block;
+  background: url(../images/d’Perfumewhite.png);
+  width: 128px;
+  height: 38px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
 .topNav {
   font-size: 20px;
   line-height: 1.5; }
@@ -11117,6 +11126,13 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
       text-align: center;
       border-right: 7px;
       font-size: 8px; }
+
+.footerNav {
+  font-size: 20px;
+  line-height: 1.5; }
+  .footerNav .footer-text {
+    font-size: 14px;
+    line-height: 1.5; }
 
 .bg-index-banner {
   background: url("../images/index1.jpg");

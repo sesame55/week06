@@ -9,6 +9,17 @@
     overflow: hidden;
 }
 
+// footer-logo
+.logo-footer {
+    display: block;
+    background: url(../images/d’Perfumewhite.png);
+    width: 128px;
+    height: 38px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 // 最上方選單
 .topNav {
     font-size: $fz * 2;
@@ -29,7 +40,7 @@
     .shopping-cart {
         position: relative;
         font-size: 0px;
-        &-num{
+        &-num {
             position: absolute;
             top: -7px;
             right: -7px;
@@ -40,5 +51,15 @@
             border-right: 7px;
             font-size: $fz * 0.8;
         }
+    }
+}
+
+// footer-nav
+.footerNav {
+    font-size: $fz * 2;
+    line-height: 1.5;
+    .footer-text {
+        font-size: $fz * 1.4;
+        line-height: 1.5;
     }
 }
