@@ -34,6 +34,11 @@
     }
 }
 
+.bg-product {
+    width: 100%;
+    padding-top: 100%;
+}
+
 .bg-index-product-md {
     width: 100%;
     padding-top: 150%;
@@ -58,6 +63,9 @@
 
 .bg-pos-left {
     background-position: left;
+}
+.bg-pos-bottom {
+    background-position: bottom;
 }
 
 .bg-md-pos-top {
