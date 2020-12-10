@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>首頁</title>
+        <title>member</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="stylesheet" href="./assets/style/all.css" />
     </head>
 
     <body>
-        <!-- 首頁選單 -->
+        <!-- 登入後選單 -->
         <nav class="navbar navbar-expand-md navbar-light p-0 py-md-2 px-md-3 topNav">
     <div class="container-fluid container-md">
         <!-- logo -->
@@ -47,7 +47,7 @@
                 <li class="nav-item mr-md-7 order-5 order-md-2">
                     <a class="nav-link d-md-flex text-center py-3 p-md-2 align-items-center" href="logIn.html">
                         <span class="material-icons d-none d-md-block"> person </span>
-                        log in
+                        Mypage
                     </a>
                 </li>
                 <li class="nav-item mr-md-7 order-2 order-md-3">
@@ -103,7 +103,67 @@
 
         <!-- 內容 -->
         
-先寫首頁，尚未開工。
+<div class="container mt-9 mt-lg-16 mb-9 mb-lg-14">
+    <div class="row">
+        <div class="col-12 col-lg-2 text-grayish mb-9 mb-lg-0 order-1">
+            <h5 class='mb-6 d-none d-lg-block'>會員中心</h5>
+            <ul class="mb-0 list-unstyled member-list d-flex flex-lg-column  justify-content-around align-items-start">
+                <li class="list-item mb-lg-5 active">
+                    <a href="#" class="list-link  text-grayish">會員資料修改</a>
+                </li>
+                <li class="list-item mb-lg-5">
+                    <a href="#" class="list-link  text-grayish">訂單查詢 </a>
+                </li>
+                <li class='list-item'>
+                    <a href="#" class='list-link  text-grayish'>退/換貨申請</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12- col-lg-7 order-3 order-lg-2">
+            <h6 class='mb-2'>個人資料修改</h6>
+            <hr>
+            <form class='mt-3 text-form'>
+                <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-3 col-form-label">會員帳號</label>
+                    <div class="col-sm-9">
+                        <input
+                            type="text"
+                            readonly
+                            class="form-control-plaintext"
+                            id="staticEmail"
+                            value="email@example.com"
+                        />
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+        <div class="col-12 col-lg-3 order-2 order-lg-3">
+            <h6>會員編碼</h6>
+            <ul class="list-unstyled text-form">
+                <li>
+                    <div class="row">
+                        <div class="col-5">購物車</div>
+                        <div class="col-7">56</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-5">我的蒐藏</div>
+                        <div class="col-7">23</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-5">完成訂單</div>
+                        <div class="col-7">8</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 
         <!-- footer -->
         <footer class="bg-secondary py-4">

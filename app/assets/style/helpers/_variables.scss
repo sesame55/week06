@@ -81,6 +81,8 @@ $light:         $gray-100 !default;
 $dark:          #E0E0E0 !default;
 $black:    #000000 !default;
 $white:    #fff !default;
+$grayish:   #848484 !default;
+$form :     #818A91 !default;
 
 
 
@@ -98,7 +100,8 @@ $theme-colors: map-merge(
     "dark":       $dark,
     "black":       $black,
     "white":       $white,
-
+    "grayish" :$grayish,
+    "form" :       $form,
   ),
   $theme-colors
 );
