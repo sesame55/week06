@@ -11416,6 +11416,13 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   width: 100%;
   padding-top: 195%; }
 
+.bg-logIn {
+  width: 100%;
+  padding-top: 100%; }
+  @media (max-width: 767px) {
+    .bg-logIn {
+      padding-top: 65%; } }
+
 .bg-cover {
   background-position: center;
   background-size: cover;

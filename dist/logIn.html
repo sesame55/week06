@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>首頁</title>
+        <title>logIn</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="stylesheet" href="./assets/style/all.css" />
@@ -103,7 +103,39 @@
 
         <!-- 內容 -->
         
-先寫首頁，尚未開工。
+<section class="container my-11 my-md-16">
+    <div class="row flex-column flex-md-row">
+        <div class="col-12 col-md-8">
+            <!-- <img class='img-fluid ' src="assets/images/login1.jpg" alt=""> -->
+            <div class="bg-logIn bg-cover" style="background-image: url('assets/images/login1.jpg')"></div>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <h2 class="mb-2">Log in</h2>
+            <form class="mt-1">
+                <div class="form-group mb-4">
+                    <label for="logInEmail" class="h6 mb-1">帳號</label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="logInEmail"
+                        aria-describedby="emailHelp"
+                        placeholder="email@example.com"
+                    />
+                </div>
+                <div class="form-group mb-8">
+                    <label for="logInPassword" class="h6 mb-1">密碼</label>
+                    <input type="password" class="form-control" id="logInPassword" placeholder="Password" />
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="h6 mb-0 mr-auto text-secondary">忘記密碼</a>
+                    <button type="submit" class="btn btn-outline-secondary mr-2">註冊</button>
+                    <button type="submit" class="btn btn-secondary">登入</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
 
         <!-- footer -->
         <footer class="bg-secondary py-4">
