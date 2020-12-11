@@ -368,5 +368,33 @@
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
             crossorigin="anonymous"
         ></script>
+        <!-- modal -->
+        <div
+    class="modal fade"
+    id="showModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body h5 mb-0 text-secondary text-center">test</div>
+        </div>
+    </div>
+</div>
+
+<script >
+    $('#showModal').on('show.bs.modal', function (e) {
+            //show.bs.modal = BS內建，觸發時執行
+            let btn = $(e.relatedTarget);//抓取觸發按鈕的資料
+            // console.log(btn);//確認點擊到哪個按鈕
+            let title = btn.data('title');
+            // console.log(title);//確認title的內容
+            let modal = $(this);//要修改的modal就是現在開啟的這個modal
+            modal.find('.modal-body').text(title);
+					//把modal的title換成按鈕上的title
+        });
+</script>
     </body>
 </html>

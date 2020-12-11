@@ -117,8 +117,8 @@
             <p class="mb-7">
                 N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。
             </p>
-            <h5 class='mb-1'>NT$4,980</h5>
-            <div class="input-group d-flex justify-content-between flex-nowrap my-2 ">
+            <h5 class="mb-1">NT$4,980</h5>
+            <div class="input-group d-flex justify-content-between flex-nowrap my-2">
                 <select class="custom-select rounded-left p-3 h-100 border border-secondary" id="inputGroupSelect02">
                     <option selected>1</option>
                     <option value="1">One</option>
@@ -130,8 +130,18 @@
                 </div>
             </div>
             <div class="d-flex mb-9 mb-md-16">
-                <a href="#" class="material-icons text-secondary"> favorite </a>
-                <p class="mb-0">加入我的收藏</p>
+                <a
+                    href="#"
+                    class="material-icons text-secondary"
+                    data-toggle="modal"
+                    data-target="#showModal"
+                    data-title="已加入我的收藏"
+                >
+                    favorite
+                </a>
+                <p class="mb-0" data-toggle="modal" data-target="#showModal" data-title="已加入我的收藏">
+                    加入我的收藏
+                </p>
             </div>
             <p class="font-weight-bolder mb-2">商品購買須知</p>
             <p class="mb-4">
@@ -145,7 +155,7 @@
                 依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。
             </p>
         </div>
-        <div class="col-md-8 ">
+        <div class="col-md-8">
             <div class="row mt-6 mb-3 mb-md-6">
                 <div class="col-12 col-md-6 mb-3 mb-md-0">
                     <img
@@ -209,5 +219,33 @@
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
             crossorigin="anonymous"
         ></script>
+        <!-- modal -->
+        <div
+    class="modal fade"
+    id="showModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body h5 mb-0 text-secondary text-center">test</div>
+        </div>
+    </div>
+</div>
+
+<script >
+    $('#showModal').on('show.bs.modal', function (e) {
+            //show.bs.modal = BS內建，觸發時執行
+            let btn = $(e.relatedTarget);//抓取觸發按鈕的資料
+            // console.log(btn);//確認點擊到哪個按鈕
+            let title = btn.data('title');
+            // console.log(title);//確認title的內容
+            let modal = $(this);//要修改的modal就是現在開啟的這個modal
+            modal.find('.modal-body').text(title);
+					//把modal的title換成按鈕上的title
+        });
+</script>
     </body>
 </html>
