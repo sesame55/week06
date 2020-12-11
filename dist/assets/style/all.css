@@ -11500,6 +11500,10 @@ a.text-form:hover, a.text-form:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.fz-14 {
+  font-size: 14px;
+  line-height: 1.5; }
+
 a:hover {
   text-decoration: none; }
 
@@ -11751,5 +11755,8 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     border-bottom: 2px solid #916000; }
   .member-list .list-item.active {
     border-bottom: 2px solid #916000; }
+
+* {
+  outline: 1px solid green; }
 
 /*# sourceMappingURL=all.css.map */

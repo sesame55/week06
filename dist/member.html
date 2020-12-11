@@ -105,6 +105,7 @@
         
 <div class="container mt-9 mt-lg-16 mb-9 mb-lg-14">
     <div class="row">
+        <!-- 1 -->
         <div class="col-12 col-lg-2 text-grayish mb-9 mb-lg-0 order-1">
             <h5 class="mb-6 d-none d-lg-block">會員中心</h5>
             <ul class="mb-0 list-unstyled member-list d-flex flex-lg-column justify-content-around align-items-start">
@@ -119,6 +120,7 @@
                 </li>
             </ul>
         </div>
+        <!-- 2 -->
         <div class="col-12- col-lg-7 order-3 order-lg-2">
             <h6 class="mb-2">個人資料修改</h6>
             <hr />
@@ -208,32 +210,114 @@
                         </div>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label" for="CustomSelect">配送地址</label>
+                    <div class="d-flex"></div>
+                    <div class="col-sm-9 no-gutters">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <select class="custom-select text-form" id="CustomSelect">
+                                    <option selected>台灣及離島</option>
+                                    <option value="1">國外</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-6">
+                                <select class="custom-select text-form" id="CustomSelect">
+                                    <option selected>高雄市</option>
+                                    <option value="1">台南市</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6">
+                                <select class="custom-select text-form" id="CustomSelect">
+                                    <option selected>鹽埕區</option>
+                                    <option value="1">苓雅區</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm">
+                                <input type="text" class="form-control" id="address" />
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="button" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-5">
+                        <button class="btn btn-secondary w-100">確定修改</button>
+                    </div>
+                </div>
+            </form>
+            <h6 class="mb-2 mt-11">修改密碼</h6>
+            <hr />
+            <form  class="mt-3 text-form">
+                <div class="form-group row">
+                    <label for="oldPassword" class="col-sm-3 col-form-label ">舊密碼</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="oldPassword" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="newPassword" class="col-sm-3 col-form-label ">新密碼</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="newPassword" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="newPassword2" class="col-sm-3 col-form-label ">確認密碼</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="newPassword2" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="button" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-5">
+                        <button class="btn btn-secondary w-100">變更密碼</button>
+                    </div>
+                </div>
             </form>
         </div>
-        <div class="col-12 col-lg-3 order-2 order-lg-3">
-            <div class="d-flex align-items-center">
+        <!-- 3 -->
+        <div class="col-12 col-lg-3 order-2 order-lg-3 mb-9">
+            <div class="d-flex align-items-center mb-5">
                 <span class="material-icons d-none d-md-block mr-1"> person </span>
                 <h6 class="mb-0 mr-1 text-form">會員編碼</h6>
                 <span class="text-grayish">T00020080615</span>
             </div>
 
             <ul class="list-unstyled text-form">
-                <li>
+                <li class='mb-3'>
                     <div class="row">
-                        <div class="col-5">購物車</div>
-                        <div class="col-7">56</div>
+                        <div class="col-sm-3 col-md-2 col-lg-5">購物車</div>
+                        <div class="col-sm-9 col-md-10 col-lg-7">56</div>
                     </div>
                 </li>
-                <li>
+                <li class='mb-3'>
                     <div class="row">
-                        <div class="col-5">我的蒐藏</div>
-                        <div class="col-7">23</div>
+                        <div class="col-sm-3 col-md-2 col-lg-5">我的收藏</div>
+                        <div class="col-sm-9 col-md-10 col-lg-7">23</div>
                     </div>
                 </li>
-                <li>
+                <li class='mb-3'>
                     <div class="row">
-                        <div class="col-5">完成訂單</div>
-                        <div class="col-7">8</div>
+                        <div class="col-2 col-lg-5">完成訂單</div>
+                        <div class="col-10 col-lg-7">8</div>
+                    </div>
+                </li>
+                <li class='mb-3'>
+                    <div class="row">
+                        <div class="col-2 col-lg-5">會員紅利</div>
+                        <div class="col-10 col-lg-7">2680</div>
+                    </div>
+                </li>
+                <li class='mb-3'>
+                    <div class="row">
+                        <div class="col-2 col-lg-5">邀請碼</div>
+                        <div class="col-10 col-lg-7">TK2075</div>
+                        <div class="col-12 fz-14">新戶輸入邀請碼即可獲贈紅利點數1000點</div>
                     </div>
                 </li>
             </ul>
